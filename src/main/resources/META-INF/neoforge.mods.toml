@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="cataclysmic_crab_spawn"
+version="${file.jarVersion}"
+displayName="Cataclysmic Crab Spawn (UNOFFICIAL)"
+displayURL="https://github.com/JustHari01/Cataclysm-Crab-Spawn-NeoForge-1.21.1-Port"
+logoFile="cataclysm-crab-spawn-icon.png"
+authors="ImMaxon, JustHari01"
+description='''Unofficial NeoForge 1.21.1 port of Cataclysmic Crab Spawn. Adds the Suspicious Looking Crab item that summons the Amethyst Crab from L_Ender's Cataclysm.'''
+
+[[dependencies.cataclysmic_crab_spawn]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.267,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.cataclysmic_crab_spawn]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.cataclysmic_crab_spawn]]
+modId="cataclysm"
+type="required"
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
